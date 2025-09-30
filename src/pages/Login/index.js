@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import InputField from '../../components/InputField/InputField';
 import './login.css';
 import { auth } from '../../Firebase';
-import { Navigate } from 'react-router-dom';
+import { Navigate, Link } from 'react-router-dom';
+
 
 
 class Mensagem extends Component {
@@ -72,9 +73,7 @@ class Login extends Component {
           />
             <p className='sug'>
               Não é cadastrado? &nbsp; 
-              <a href="/cadastro" >
-                Cadastrar-se
-              </a>
+              <Link to="/cadastro">Cadastrar-se</Link>
             </p>        
             <button onClick={this.realizar_login} className="botao">Acessar</button>
             <Mensagem texto={mensagem} />

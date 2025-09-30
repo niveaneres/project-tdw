@@ -2,7 +2,7 @@ import React, { Component, use } from 'react';
 import InputField from '../../components/InputField/InputField';
 import './cadastro.css';
 import { auth, firestore } from '../../Firebase';
-import { Navigate } from 'react-router-dom';
+import { Navigate, Link } from 'react-router-dom';
 
 class Mensagem extends Component {
   render() {
@@ -104,7 +104,7 @@ class Cadastro extends Component {
         />
         <p className="sug">
           Já é cadastrado? &nbsp;
-          <a href="/login">Faça o login.</a>
+          <Link to="/login">Faça o login.</Link>
         </p>
         <button onClick={this.criar_cadastro}>Cadastrar</button>
         <Mensagem texto={mensagem} />
