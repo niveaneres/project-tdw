@@ -1,0 +1,18 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 8px;
+}
+
+
+.botao{
+  display: block;
+  width: 100px;
+}
+
+.sug{
+  font-size: 14px;
+}

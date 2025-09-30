@@ -1,0 +1,23 @@
+
+.form{
+  display: block;
+  width: 200px;
+  align-items: left;
+}
+
+input.form {
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none; 
+  gap: 10px;
+}
+
+
+input[type="date"].form {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
