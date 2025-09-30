@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
+  "homepage": "https://niveaneres.github.io/project-tdw",
   "dependencies": {
     "abab": "^2.0.6",
     "accepts": "^1.3.8",
@@ -276,6 +277,7 @@
     "get-proto": "^1.0.1",
     "get-stream": "^6.0.1",
     "get-symbol-description": "^1.1.0",
+    "gh-pages": "^6.3.0",
     "glob": "^7.2.3",
     "glob-parent": "^6.0.2",
     "glob-to-regexp": "^0.4.1",
@@ -842,6 +844,8 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "WATCHPACK_POLLING=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
