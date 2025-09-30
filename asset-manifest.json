@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/project-tdw/static/css/main.fe7b6eb9.css",
-    "main.js": "/project-tdw/static/js/main.a6ed8841.js",
+    "main.js": "/project-tdw/static/js/main.cdf7b201.js",
     "index.html": "/project-tdw/index.html",
     "main.fe7b6eb9.css.map": "/project-tdw/static/css/main.fe7b6eb9.css.map",
-    "main.a6ed8841.js.map": "/project-tdw/static/js/main.a6ed8841.js.map"
+    "main.cdf7b201.js.map": "/project-tdw/static/js/main.cdf7b201.js.map"
   },
   "entrypoints": [
     "static/css/main.fe7b6eb9.css",
-    "static/js/main.a6ed8841.js"
+    "static/js/main.cdf7b201.js"
   ]
 }
