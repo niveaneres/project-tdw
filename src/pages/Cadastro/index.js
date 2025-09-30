@@ -102,10 +102,6 @@ class Cadastro extends Component {
           value={senha}
           onChange={this.handleSenhaChange}
         />
-        <p className="sug">
-          Já é cadastrado? &nbsp;
-          <Link to="/login">Faça o login.</Link>
-        </p>
         <button onClick={this.criar_cadastro}>Cadastrar</button>
         <Mensagem texto={mensagem} />
       </div>

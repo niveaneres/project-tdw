@@ -70,11 +70,7 @@ class Login extends Component {
             placeholder="Senha"
             value={senha}
             onChange={this.handleSenhaChange}
-          />
-            <p className='sug'>
-              Não é cadastrado? &nbsp; 
-              <Link to="/cadastro">Cadastrar-se</Link>
-            </p>        
+          />  
             <button onClick={this.realizar_login} className="botao">Acessar</button>
             <Mensagem texto={mensagem} />
           </div>
