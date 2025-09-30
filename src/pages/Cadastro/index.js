@@ -104,7 +104,7 @@ class Cadastro extends Component {
         />
         <p className="sug">
           Já é cadastrado? &nbsp;
-          <Link to="login">Faça o login.</Link>
+          <Link to="/login">Faça o login.</Link>
         </p>
         <button onClick={this.criar_cadastro}>Cadastrar</button>
         <Mensagem texto={mensagem} />

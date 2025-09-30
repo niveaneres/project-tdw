@@ -6,7 +6,7 @@ import Principal from './pages/Principal';
 
 const Rotas = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.REACT_APP_BASENAME}>
         <Routes>
             <Route path="/cadastro" element={<Cadastro/>} />
             <Route path="/login" element={<Login/>} />
